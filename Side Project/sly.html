@@ -1,0 +1,233 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+  <!-- Start About Us -->
+  <style type="text/css">
+    h1, h2, h3, h4, h5, h6 {
+    color: #2c3145;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section_all {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 100vh;
+}
+.section-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.section-subtitle {
+    letter-spacing: 0.4px;
+    line-height: 28px;
+    max-width: 550px;
+}
+
+.section-title-border {
+    background-color: #000;
+    height: 1 3px;
+    width: 44px;
+}
+
+.section-title-border-white {
+    background-color: #fff;
+    height: 2px;
+    width: 100px;
+}
+.text_custom {
+    color: #00bd2a;
+}
+
+.about_icon i {
+    font-size: 22px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 35px;
+    color: #00bd2a;
+    box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+}
+
+.about_header_main .about_heading {
+    max-width: 450px;
+    font-size: 24px;
+}
+
+.about_icon span {
+    position: relative;
+    top: -10px;
+}
+
+.about_content_box_all {
+    padding: 28px;
+}
+
+  </style>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  <style type="text/css">
+    video {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+  </style>
+
+	<!-- top of index page -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Reveal Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/static/assets/img/favicon.png" rel="icon">
+  <link href="/static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="/static/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/static/assets/css/style.css" rel="stylesheet">
+
+	<!-- bottom of index page -->
+  
+  <link type="text/css" href="js/register.js">
+
+
+</head>
+<body>
+
+	
+
+
+<!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="/">DAY<span>COUNT</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a>-->
+      </div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          
+          <li class="menu-active"><a href="/">Home</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/client/">Client</a></li>
+          <li><a href="/loginPage/">Login</a></li>
+          <li><a href="/register/">Register</a></li>
+          
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- End Header -->
+
+	<div class="container-fluid">
+		
+
+
+<div class="main">
+	
+    <!-- Sing in  Form -->
+    <section class="sign-in">
+        <div class="container">
+            <div class="signin-content">
+                <div class="signin-image">
+                    <figure><img src="/static/images/signin-image.jpg" alt="sing up image"></figure>
+                    <a href="#" class="signup-image-link">Login to your account</a>
+                </div>
+
+                <div class="signin-form">
+                    <h2 class="form-title">Sign in</h2>
+                    <form method="POST" action="" class="register-form" id="login-form">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="F5CvUb2uWQECPii5lJqlsEngElwSj2y5bDGYlC08v0KqQkl6YW6d1q8vm0dzham9">
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="username" id="your_name" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                            <input type="password" name="password" id="your_pass" placeholder="Password"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                            <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                        </div>
+                        <div class="form-group form-button">
+                            <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+                        </div>
+                    </form>
+                
+                <div class="mt-4">
+                    <div class="d-flex justify-content-center links">
+                        Don't have an account? <a href="/register/" class="ml-2">Sign Up</a>
+                    </div>
+                    <div class="d-flex justify-content-center links">
+                        Forgot password? <a href="/reset_password/" class="ml-2">Reset password</a>
+                    </div>
+            
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+		
+	</div>
+
+</body>
+<!-- top of index page -->
+
+<script src="/static/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/static/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="/static/assets/vendor/php-email-form/validate.js"></script>
+<script src="/static/assets/vendor/wow/wow.min.js"></script>
+<script src="/static/assets/vendor/venobox/venobox.min.js"></script>
+<script src="/static/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="/static/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+<script src="/static/assets/vendor/superfish/superfish.min.js"></script>
+<script src="/static/assets/vendor/hoverIntent/hoverIntent.js"></script>
+<script src="/static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="sly.js"></script>
+
+
+<!-- bottom of index page -->
+
+
+</html>
